@@ -22,10 +22,7 @@ int main(){
 		
     	cout<<"\n**Mastermind**\n\n";
     	
-    	// Mod de joc
-    	/*
-    	cout<<"Cum doriti sa jucati?\nSingur: 1 ; In doua persoane: 2\n\n";
-    	*/
+
     checkpoint3:
     	nrMax = 10;
 	cout<<"Alege culorile:\nRosu[R]: 0; Orange[O]: 1; Galben[G]: 2; Verde[V]: 3; Albastru[A]: 4; Indigo[I] 5;\n(Nu puteti alege doua culori identice)"<<endl;
@@ -176,7 +173,7 @@ int main(){
 	}
 	
 	//finalizare / reluare
-	cout<<"\nNu ati reusit sa ghiciti codul!\nDoriti sa jucat din\n(Da: apasati 1 ; Nu: apasati 2)\n";
+	cout<<"\nNu ati reusit sa ghiciti codul!\nDoriti sa jucat din nou?\n(Da: apasati 1 ; Nu: apasati 2)\n";
 	cin>>n;
 	switch(n){
 		case(1):
